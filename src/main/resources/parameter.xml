@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "param">
+    <test name = "param">
+        <classes>
+            <parameter name = "id" value="9527"/>
+            <parameter name = "password" value="17777389675"/>
+            <class name = "org.example.parameter.ParameterTest"/>
+        </classes>
+    </test>
+</suite>

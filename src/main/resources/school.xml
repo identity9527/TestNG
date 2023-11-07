@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "School">
+    <test name = "Student">
+
+        <groups>
+            <run>
+                <exclude name = "stu">
+                </exclude>
+            </run>
+        </groups>
+
+        <classes>
+            <class name = "org.example.groups.GroupOnClassFirst"/>
+            <class name = "org.example.groups.GroupOnClassSecond"/>
+            <class name = "org.example.groups.GroupOnClassThird"/>
+        </classes>
+    </test>
+</suite>

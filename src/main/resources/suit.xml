@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "test">
+
+    <groups>
+        <run>
+            <include name = "login"/>
+        </run>
+    </groups>
+
+    <test name = "Login">
+        <classes>
+            <class name = "org.example.suit.LoginTest"/>
+            <class name = "org.example.suit.SuitConfig"/>
+        </classes>
+    </test>
+
+    <test name = "Pay">
+        <classes>
+            <class name = "org.example.suit.SuitConfig"/>
+            <class name = "org.example.suit.PayTest"/>
+        </classes>
+    </test>
+</suite>
